@@ -1,0 +1,83 @@
+/*
+Theme Name: Primus
+Theme URI: http://primus.marksteadman.com/
+Description: A basic WordPress theme using flat Bootstrap
+Author: Mark Steadman
+Author URI: http://marksteadman.com/
+Version: 1.0
+Tags: bootstrap, flat
+
+License: Apache License v2.0
+License URI: http://www.apache.org/licenses/LICENSE-2.0
+
+<a href="http://www.littlesparkvt.com/flatstrap/">Flatstrap</a> (flat Bootstrap) by
+<a href="http://www.littlesparkvt.com/">Little Spark</a>, based on the Twitter Bootstrap framework
+by @<a href="http://twitter.com/mdo">mdo</a> and @<a href="http://twitter.com/fat">fat</a>.
+*/
+
+body.has-navbar-fixed-top { padding-top: 40px; }
+body.has-navbar-fixed-bottom { padding-bottom: 40px; }
+
+.alignleft { float: left; margin-right: 10px; }
+.alignright { float: right; margin-left: 10px; }
+cite { display: block; text-align: right; }
+#wrapper, footter {
+	background: #fff; margin: 10px auto 0 auto;
+	-moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;
+}
+
+#wrapper .container { margin-bottom: 0; }
+.header-image { margin: 0; width: 1210px; }
+
+.sidebar-container { position: relative; width: 370px; top: 0; right: 0; }
+#sidebar-1.affix { width: 370px; top: 0; }
+.admin-bar .navbar-fixed-top { top: 28px; }
+.admin-bar #sidebar-1.affix { top: 30px; }
+
+@media (min-width: 1200px) {
+	#wrapper, #footer { width: 1170px; padding: 20px; }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	#wrapper, #footer { width: 724px; padding: 10px; }
+}
+
+@media (max-width: 767px) {
+	.site-header { display: none; }
+	#wrapper, #footer { width: auto; padding: 0; }
+}
+
+.hentry header .icon {
+	font-size: 24px; width: 24px; height: 38px; line-height: 38px;
+	float: left; margin: 10px 10px 0 0;
+}
+
+h2 a { color: #333; }
+h2 a:hover { color: #000; }
+.hentry header h2 { float: left; }
+.hentry .content, .hentry footer {
+	margin-left: 34px;
+}
+
+@media (min-width: 1200px) {
+	.hentry header h2 { width: 736px; }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+	.hentry header h2 { width: 442px; }
+}
+
+@media (max-width: 979px) {
+	.hentry header .icon { display: none; }
+	.hentry header h2 { float: none; }
+	.hentry .content, .hentry footer { margin-left: 0; }
+}
+
+#footer {
+	margin: 0 auto 10px auto; color: #666;
+	background: url('img/footer.png') no-repeat top center; background-size: 100%;
+}
+
+#footer a { color: #777; }
+
+#footer .container { margin-top: 0; padding-top: 10px; background: transparent; }
