@@ -15,6 +15,7 @@ License URI: http://www.apache.org/licenses/LICENSE-2.0
 by @<a href="http://twitter.com/mdo">mdo</a> and @<a href="http://twitter.com/fat">fat</a>.
 */
 
+body { background-color: #f4f4f4; }
 body.has-navbar-fixed-top { padding-top: 40px; }
 body.has-navbar-fixed-bottom { padding-bottom: 40px; }
 
@@ -59,6 +60,8 @@ h2 a:hover { color: #000; }
 	margin-left: 34px;
 }
 
+blockquote p { font-size: 14px; line-height: 20px; }
+
 @media (min-width: 1200px) {
 	.hentry header h2 { width: 736px; }
 }
@@ -79,5 +82,4 @@ h2 a:hover { color: #000; }
 }
 
 #footer a { color: #777; }
-
 #footer .container { margin-top: 0; padding-top: 10px; background: transparent; }
